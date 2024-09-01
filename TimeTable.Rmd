@@ -107,30 +107,36 @@ for (i in 1:nrow(tempM)) {
     tempML[i] <- paste0(
         "&", tempM[i,2], "&", tempM[i,3], "&", tempM[i,4], "&", tempM[i,5], "&", tempM[i,6], "\\\\")
 }
+tempML <- paste0(tempML, collapse = "")
+
 
 tempTL <- 1:nrow(tempT)
 for (i in 1:nrow(tempT)) {
     tempTL[i] <- paste0(
         "&", tempT[i,2], "&", tempT[i,3], "&", tempT[i,4], "&", tempT[i,5], "&", tempT[i,6], "\\\\")
 }
+tempTL <- paste0(tempTL, collapse = "")
 
 tempWL <- 1:nrow(tempW)
 for (i in 1:nrow(tempW)) {
     tempWL[i] <- paste0(
         "&", tempW[i,2], "&", tempW[i,3], "&", tempW[i,4], "&", tempW[i,5], "&", tempW[i,6], "\\\\")
 }
+tempWL <- paste0(tempWL, collapse = "")
 
 tempRL <- 1:nrow(tempR)
 for (i in 1:nrow(tempR)) {
     tempRL[i] <- paste0(
         "&", tempR[i,2], "&", tempR[i,3], "&", tempR[i,4], "&", tempR[i,5], "&", tempR[i,6], "\\\\")
 }
+tempRL <- paste0(tempRL, collapse = "")
 
 tempFL <- 1:nrow(tempF)
 for (i in 1:nrow(tempF)) {
     tempFL[i] <- paste0(
         "&", tempF[i,2], "&", tempF[i,3], "&", tempF[i,4], "&", tempF[i,5], "&", tempF[i,6], "\\\\")
 }
+tempFL <- paste0(tempFL, collapse = "")
 
 ```
 
