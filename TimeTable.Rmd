@@ -150,7 +150,6 @@ for (i in 1:nrow(tempF)) {
     \textbf{\textcolor{teal!60!black}{Instructor}} \\ \hline
 
     \phantom{} \\ \hline
-
     \multirow{`r nrow(tempM)`}{*}{\textbf{\textcolor{teal!60!black}{Monday}}} `r tempML` \hline
     \phantom{} \\ \hline
     \multirow{`r nrow(tempT)`}{*}{\textbf{\textcolor{teal!60!black}{Tuesday}}} `r tempTL` \hline
