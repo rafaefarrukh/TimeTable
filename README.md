@@ -28,6 +28,7 @@ for (i in 1:nrow(tempM)) {
     tempML[i] <- paste0(
         "&", tempM[i,2], "&", tempM[i,3], "&", tempM[i,4], "&", tempM[i,5], "&", tempM[i,6], "\\\\")
 }
+tempML <- paste0(tempML, collapse = "")
 ```
 - In LateX code, comment the multirow
 ```
